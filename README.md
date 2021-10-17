@@ -1,7 +1,5 @@
 # Echo Client & Server
 CYBR 372, Assignment 2 <br>
-Matt Romanes <br>
-300492211
 
 ### External Links
 

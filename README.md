@@ -3,10 +3,10 @@ CYBR 372, Assignment 2 <br>
 Matt Romanes <br>
 300492211
 
-###External Links
+### External Links
 
-##Part One
-###Running The Code
+## Part One
+### Running The Code
 Run the server and client sides of the program by pressing the Play button on your IDE. 
 This part of the assignment is designed to run programmatically and not from the command line.
 
@@ -27,19 +27,19 @@ decryption and signing of message).
 
 
 
-###Test Results
+### Test Results
 Server:
 ![](../../../../../Desktop/Screen Shot 2021-10-06 at 10.08.05 PM.png)
 Client:
 ![](../../../../../Desktop/Screen Shot 2021-10-06 at 10.08.16 PM.png)
 
 
-##Part Two
-###Running The Code
+## Part Two
+### Running The Code
 Run the program from the command line. To specify the password for the KeyStore, type 
 'badpassword' on the command line; the program will accept it as an argument. 
 
-###Design Decisions
+### Design Decisions
 The requirements for this part of the assignment differed from the first part; instead of 
 prompting the user for the public key (encoded as a Base64 string), we use the KeyStore instance
 to not only store the public and private keys, but also the certificate for both the client and server

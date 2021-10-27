@@ -1,4 +1,4 @@
-# Echo-Client-And-Server
+# EchoClientServer
 A secure communication channel application that can send messages between the client and server. The security of the channel is ensured by using the RSA asymmetric encryption algorithm, as well as SHA256withRSA for signage and verification of the message. Data is encrypted prior to sending, using the cipher RSA/PKCS1Padding. Data is decrypted in the same manner to be read by either the client or server as plaintext. 
 ## Running The Application
 The server will wait for a message from the client, decrypt it into plaintext and re-encrypt the message into ciphertext to be sent back to the client. So make sure to run the server side first before running the client side, as an error will be thrown when the server cannot find something to connect to. This applies in particular to the *part1* directory

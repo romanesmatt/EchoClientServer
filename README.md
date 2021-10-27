@@ -24,14 +24,6 @@ due to the this.PrivateKey being null when it is used for its respective purpose
 decryption and signing of message).
 
 
-
-### Test Results
-Server:
-![](../../../../../Desktop/Screen Shot 2021-10-06 at 10.08.05 PM.png)
-Client:
-![](../../../../../Desktop/Screen Shot 2021-10-06 at 10.08.16 PM.png)
-
-
 ## Part Two
 ### Running The Code
 Run the program from the command line. To specify the password for the KeyStore, type 
@@ -50,8 +42,3 @@ its own certificate which would be useful for both the Client and Server side of
 And just like in the first part of this assignment, once again
 I made little deviation from the example code, but instead separated each functionality by their own
 respective methods for easier debugging and general organisation of the code.
-
-###Test Results
-Unfortunately, I never got the opportunity to successfully run my code as the program called a NullPointerException
-when running the server side first. I deduced that the problem was that the public key was null. Due to time constraints,
-I never got the chance to resolve the problem and therefore determine if my tests ran successfully.

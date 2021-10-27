@@ -1,8 +1,6 @@
 # Echo Client & Server
 CYBR 372, Assignment 2 <br>
 
-### External Links
-
 ## Part One
 ### Running The Code
 Run the server and client sides of the program by pressing the Play button on your IDE. 

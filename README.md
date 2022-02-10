@@ -7,7 +7,4 @@ The directory *part1* is designed to run programmatically. To run this part of t
 ### Part Two: Keystore
 The directory *part2* is designed to run via the command line. To run this part of the project, compile both server (**compile this first**)and client sides using the following command: ```javac <projectName>``` <br>
 
-If no errors are found, input the following command: ```java <projectName>```
-
-### Part Three: Secure Channel Principles
-Incomplete.
+If no errors are found, input the following command: ```java <projectName>``
